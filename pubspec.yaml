@@ -1,0 +1,30 @@
+name: atracciones_meneses
+description: Aplicación Flutter para sistema de feria con tarjetas NFC (Atracciones Meneses)
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # NFC
+  nfc_manager: ^3.3.0
+
+  # SQLite
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # Utilidades opcionales
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
