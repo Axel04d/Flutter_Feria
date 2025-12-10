@@ -7,7 +7,7 @@ class ConfigurarJuegoScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Configurar juego')),
-      body: const Center(child: Text('Pantalla Admin – aquí irá la lógica')),
+      body: const Center(child: Text('Pantalla Admin  aquí irá la lógica')),
     );
   }
 }
